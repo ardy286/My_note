@@ -1,0 +1,78 @@
+/* Style visé : simple et moderne
+    
+*/
+body {
+  background-color: #1a1818;
+  color: #ffffff;
+}
+
+/* page_presentation */
+.navbar,
+.nav-link,
+.navbar-brand {
+  background-color: #121111;
+  color: white;
+}
+
+.main1 {
+  /* STRUGGLED TO GET THIS TO WORK. turns out it was a simple reference issue. */
+  background-image: url("./images/image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 10%;
+}
+.textArea p,
+.textArea .btn {
+  margin-left: 2%;
+}
+
+.main2 {
+  height: 30vh;
+}
+.main2 p {
+  margin: 10%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* page_login */
+
+.mainLogin {
+  height: 100vh;
+  padding: 10%;
+}
+
+/* page_creationCompte */
+
+.page_creationCompte .container-fluid {
+  height: 100vh;
+  line-height: 1;
+}
+
+/* page_admin  */
+.page_Admin .container-fluid {
+  height: 100vh;
+}
+
+/* page_acceuil  */
+.page_acceuil .container-fluid {
+  height: 100vh;
+}
+
+/* page_visu  */
+.page_visu #image {
+  background-image: url("./images/image5.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  height: 100vh;
+  padding: 10%;
+}
